@@ -1,0 +1,17 @@
+bin/
+obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.log
+
+# Docker volumes (por si se crean carpetas locales)
+**/docker_esapptest_sql_data/
+**/esapptest_sql_data/
+
+# Environment configs
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
